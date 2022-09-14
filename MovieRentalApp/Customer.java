@@ -44,8 +44,8 @@ public class Customer {
       while (rentals.hasMoreElements()) {
          Rental each = (Rental) rentals.nextElement();
          result += each.getCharge();
-         }
-         return result;
+      }
+      return result;
    }
 
    private int getTotalFrequentRenterPoints(){
